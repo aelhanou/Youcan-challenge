@@ -2,7 +2,7 @@
 export default {
     content: ["./index.html", "./src/**/*.{ts,tsx}"],
     theme: { extend: {} },
-    darkMode: "class",
+    darkMode: 'class',
     plugins: [
         require("@tailwindcss/forms"),
         require("@tailwindcss/typography"),
